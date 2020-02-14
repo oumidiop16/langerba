@@ -1,0 +1,259 @@
+*{
+	text-decoration: nono;
+	padding: 0px;
+	margin: 0px;
+}
+/*gerer la responsiviter*/
+
+#navbarNav{
+	margin:200px;
+	width: 400px;
+	
+}
+#global{
+
+}
+
+/*fin mise forme liste deroulangte*/
+#logo{
+	font-size: 30px;
+	font-family: merriweather,serrif;
+	font-weight: bolder;
+}
+#numero{
+	text-decoration: none;
+	font-size: 20px;
+	font-family:  Adobe Hebrew;
+}
+
+nav{
+	height: 100px;
+}
+
+#menu1{
+	background-color:#003a5c;
+	width: 100%;
+}
+#menu1 .container-fluid{
+	background: url(../image/menu1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+	margin-top: 100px;
+}
+#register {
+	border-radius: 25px;
+	color: white;
+	width: 250px;
+	height: 50px;
+	background-color: #fc8f44;
+}
+#menu1 .container-fluid #text1 {
+	font-family: merriweather, serrif ;
+	color: white;
+	padding-top: 70px;
+	padding-left:  350px;
+	opacity: 0.9px;
+}
+#menu1 .container-fluid #text1 h1{
+	font-size: 50px;
+	padding-left: 30px;
+
+}
+#menu1 .container-fluid #text1 h5{
+	font-size: 20px;
+	padding-left: 180px;
+	padding-top: 10px;
+	font-family: merriweather,serrif;
+	opacity: 0.7;
+}
+#menu1 .container-fluid button{
+	margin-top: 50px;
+	margin-left: 180px;
+	border-radius: 25px;
+}
+/*les formes et l Ses mises en formes et mises en pages du menu2*/
+#menu2{
+	padding-top: 50px;
+	height: 550px;
+	background-color: #edf4f8;
+	width: 100%;
+}
+#menu2 #text2 h2{
+	font-family: merriweather,serrif;
+	font-size: 45px;
+	padding-top: 30px;
+
+}
+#menu2 #text2 h3{
+	font-family: merriweather,serrif;
+	font-size: 35px;
+	padding-top: 30px;
+}
+#menu2 #text2 p{
+font-family: merriweather,serrif;
+	font-size: 20px;
+	padding-top: 10px;
+}
+#menu2 #text2 button{
+	border-radius: 25px;
+	height: 50px;
+	width: 200px;
+}
+#menu3 {
+	height: 600px;
+	width: 100%;
+}
+#menu3 .container{
+	padding:25px;
+}
+#menu4{
+	height: 500px;
+	background-color: #edf4f8;
+	width: 100%;
+}
+#menu4 .container #text4{
+	font-family: merriweather,serrif;
+}
+#menu .container #text4 h2{
+	font-size:300px;
+}
+#menu .container #text4 h4{
+	font-size: 15px;
+}
+#menu5{
+	height: 400px;
+	background-color: #003c5a;
+	width: 100%;
+}
+#menu5 #text5{
+	color: white;
+	font-family: merriweather,serrif;
+	font-size: 50px;
+	padding-top: 30px;
+}
+#menu5 #text5_1{
+	padding-top: 20px;
+	color: white;
+	font-family: merriweather,serrif;
+	font-size: 20px;
+}
+#menu5 #email{
+
+	border-radius: 30px;
+	margin-top: 50px;
+	width:600px;
+	height: 60px;
+	margin-right: 20px;
+}
+#menu5 .placehorder{
+	font-family: merriweather,serrif;
+	margin-right: 10px;
+}
+#menu5 button{
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+	border-radius: 30px;
+	height: 60px;
+	width: 400px;
+	
+}
+#menu6{
+	height: 500px;
+	background-color: #F08237;
+	width: 100%;
+}
+#menu6 h3{
+	color: white;
+	font-family: merriweather;
+}
+/*partie css di carousel*/
+#fluid3 {
+	background-color: #e76e33;
+	width: 100%;
+	height: 550px;
+}
+
+#what_our h2{
+	color: white;
+	text-align: center;
+	font-size: 36pt;
+	margin-left: 30%;
+	margin-top: 5%;
+	display: block;
+    font-weight: 300;
+    font-family: merriweather,serif;
+    line-height: 1.55;
+}
+
+#carouselExampleIndicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	margin-top:40%;
+}
+
+#carouselExampleIndicators {
+	padding: 4%;
+	/*margin-right: 10%;*/
+}
+
+#carousel {
+	margin-left: 15%;
+	padding: 2%;
+	margin-top: -6%;
+}
+
+.carousel-inner img{
+	margin-left: 30%;
+	padding: 1%;
+}
+.carousel-inner p{
+	text-align: center;
+	color: white;
+	width: 60%;
+	font-size: 20pt;
+	font-family: "Merriweather",serif;
+	font-style: italic;
+	 
+}
+.carousel-inner span{
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	font-family: "Open sans",sans-serif;
+	font-weight: bold;
+	margin-left: 30%;
+
+}
+/*fin partie css du carousel*/
+   #footer{
+}
+ #footer .container #barre ul li {
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	margin-top: 35px;
+	
+}
+#logosBas{
+	padding-bottom: 20px;
+}
+#listfin{
+	list-style: none;
+	margin-top: 40px;
+}
+#listfin:hover{
+	color:  #f08237;
+}
+#footer .container hr{
+	color: white;
+}
+#footer .container p{
+	color: white;
+	opacity: 0.2;
+}
+ #logobas h3{
+	background-color: white;
+}
